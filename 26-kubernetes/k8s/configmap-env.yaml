@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: goserver-env
+data:
+  my_host: "11.22.33.44"
+  my_port: "5432"
+  my_database: "order"
